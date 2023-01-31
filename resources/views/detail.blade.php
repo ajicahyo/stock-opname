@@ -51,7 +51,7 @@
         <input type="hidden" name="id" value="{{ $barang['id'] }}">
         <div class="form-group">
             <label for="nama">Nomor</label>
-            <input type="text" class="form-control" id="stok" name="stok" autofocus placeholder="Persediaan di Gudang">
+            <input type="number" class="form-control" id="stok" name="stok" autofocus placeholder="Persediaan di Gudang">
         </div>
         <button type="submit" class="btn btn-primary mr-2">Tambah</button>
     </form>
